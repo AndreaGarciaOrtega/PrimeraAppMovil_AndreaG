@@ -14,10 +14,8 @@
         android:orientation="vertical"
         android:paddingHorizontal="16dp"
         android:paddingTop="8dp"
-        android:backgroundTint="@color/botones"
-        >
+        android:backgroundTint="@color/botones">
 
-        <!-- Fila 1: icono de persona + Name, Phonetic name, Nickname -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -95,10 +93,10 @@
                 android:text="@string/change"
                 android:textColor="#000000"
                 android:textSize="12sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:cornerRadius="0dp"/>
         </LinearLayout>
 
-        <!-- Fila 3: teléfono + Spinner -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -135,7 +133,6 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Fila 4: e-mail -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
