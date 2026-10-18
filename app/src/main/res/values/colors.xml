@@ -3,5 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="botones">#EFEFEF</color>
+    <color name="colorPrimary">#18B4FF</color>
+    <color name="colorPrimaryDark">#0E8FD0</color>
 
 </resources>
