@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:gravity="center"
+    android:padding="16dp"
+    android:stretchColumns="0,1">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="Play Juegos"
+            android:textColor="#666666"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button1"
+            android:layout_margin="8dp"
+            android:backgroundTint="#D6D9D9"
+            android:text="@string/boton1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_margin="8dp"
+            android:backgroundTint="#D6D9D9"
+            android:text="@string/boton2"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button3"
+            android:layout_margin="8dp"
+            android:backgroundTint="#D6D9D9"
+            android:text="@string/boton3"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_margin="8dp"
+            android:backgroundTint="#D6D9D9"
+            android:text="@string/boton4"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:cornerRadius="0dp"/>
+    </TableRow>
+
+</TableLayout>

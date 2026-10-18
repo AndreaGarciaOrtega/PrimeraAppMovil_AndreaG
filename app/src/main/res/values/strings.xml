@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PrimeraAppMovil</string>
+    <string name="boton1">PLAY</string>
+    <string name="boton2">NEW PLAYER</string>
+    <string name="boton3">PREFERENCES</string>
+    <string name="boton4">ABOUT</string>
+    <string name="name">Name</string>
+    <string name="phonetic">Phonetic name</string>
+    <string name="change">CHANGE</string>
+    <string name="nick">Nickname</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+</resources>
